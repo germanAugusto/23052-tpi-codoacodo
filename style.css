@@ -23,6 +23,7 @@
 .carousel-control-next{
     width: 8%;
 }
+
 .img--w__logo{
     width: 30%;
 }
@@ -62,4 +63,11 @@ nav div .a--tickets:hover{
     top:40%;
     text-shadow: #353a40;
 } 
-
+.card__img--cover{
+    width: 100%;  
+   
+}
+.row img{
+    height: 200px;  
+    object-fit: cover;
+}
