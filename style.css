@@ -23,6 +23,10 @@
    object-fit: cover;
 }
 
+
+.img--w__logo{
+    width: 30%;
+}
 nav div .navbar-nav{
     color:gray;
 }
@@ -30,12 +34,16 @@ nav div .navbar-nav{
 nav div .a--tickets{
     color:#33a74e;
 }
+
+.color__button--tickets{
+    background-color:#33a74e;
+}
 .a-fontSize--logo{
     font-size: 20px;
 }
 
 nav div .nav-link{
-    font-size: 18px;
+    font-size: 17px;
 }
 nav div .nav-link:hover{
     color:white;
@@ -51,8 +59,8 @@ nav div .a--tickets:hover{
 
 .texto{
     position:absolute;
-    right: 10%;
-    top:45%;
+    right: 12%;
+    top:40%;
     text-shadow: #353a40;
 } 
 
