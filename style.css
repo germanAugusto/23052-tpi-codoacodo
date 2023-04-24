@@ -67,7 +67,50 @@ nav div .a--tickets:hover{
     width: 100%;  
    
 }
-.row img{
-    height: 200px;  
-    object-fit: cover;
+.informacion__text--background{
+    background-color:#353a40 ;
 }
+.underline__link{
+    text-decoration:dashed;
+}
+.color__button--send{
+    background-color: #96c93e;
+    color: white;
+
+} 
+.color__button--send:hover{
+    background-color: #33a74e;
+    color: white;
+
+} 
+
+  
+
+    .footer--background{
+        background:linear-gradient(to right, #1c3846 60%, #1f5271 );
+    
+    } 
+    
+    .footer--shadow{
+        filter: drop-shadow(2px, 4px, 6px, white)
+    }
+
+    footer div{
+        
+        align-content: center;
+    }
+    footer a{
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+        transition: .3 all;
+    }
+
+    footer a:hover{
+        
+        color: #33a74e;
+        transition: .5 all;
+
+    }
+
+    
