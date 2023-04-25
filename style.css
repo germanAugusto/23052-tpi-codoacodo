@@ -8,7 +8,11 @@
 }
 
 .img__logo--w{
-    width: 30%;
+    width: 95px;
+}
+
+.a_logo_size{
+    width: 20vw;
 }
 
 nav div .navbar-nav{
