@@ -4,7 +4,34 @@
 *{
     box-sizing: border-box;
 }
-.section--banner{
+
+
+.img__logo--w{
+    width: 30%;
+}
+
+nav div .navbar-nav{
+    color:gray;
+}
+
+nav div .a--tickets{
+    color:#33a74e;
+}
+
+
+nav div .nav-link:hover{
+    color:white;
+}
+
+nav div .a--tickets:hover{
+    color:#49fd73;
+}
+
+.nav--bg{
+    background:#353a40;
+}
+
+.section--carusel{
     background-color: black;
 }
 .carousel{
@@ -24,45 +51,18 @@
     width: 8%;
 }
 
-.img--w__logo{
-    width: 30%;
-}
-nav div .navbar-nav{
-    color:gray;
-}
-
-nav div .a--tickets{
-    color:#33a74e;
-}
-
 .color__button--tickets{
     background-color:#33a74e;
 }
-.a-fontSize--logo{
-    font-size: 20px;
-}
 
-nav div .nav-link{
-    font-size: 17px;
-}
-nav div .nav-link:hover{
-    color:white;
-}
 
-nav div .a--tickets:hover{
-    color:#49fd73;
-}
-
-.nav--bg{
-    background:#353a40;
-}
-
-.texto{
+.carusel-texto{
     position:absolute;
     right: 8%;
     top:40%;
     text-shadow: #353a40;
 } 
+
 .card__img--cover{
     width: 100%;  
    
@@ -102,13 +102,13 @@ nav div .a--tickets:hover{
     footer a{
         font-size: 1rem;
         text-decoration: none;
-        color: white;
+        color: gray;
         transition: .3 all;
     }
 
     footer a:hover{
         
-        color: #33a74e;
+        color:white;
         transition: .5 all;
 
     }
