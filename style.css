@@ -50,10 +50,10 @@ nav div .a--tickets:hover{
 }
 
 .carousel-control-prev{
-    width: 8%;
+    width: 7%;
 }
 .carousel-control-next{
-    width: 8%;
+    width: 7%;
 }
 
 .color__button--tickets{
@@ -97,7 +97,8 @@ nav div .a--tickets:hover{
 } 
 
 .footer--shadow{
-    filter: drop-shadow(2px, 4px, 6px, white)
+    filter: drop-shadow(2px, 4px, 6px, white);
+    -webkit-filter: drop-shadow(2px, 4px, 6px, white);
 }
 
 footer div{
